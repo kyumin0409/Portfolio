@@ -29,6 +29,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+div.container {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
 body {
 	line-height: 1;
 }
@@ -2165,6 +2171,11 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
+		ul.myUL{
+			display: inline-block;
+			text-align: left;
+		}
+
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -2459,6 +2470,15 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+	}
+
+	.center {
+ 		 margin: 0;
+ 		 position: relative;
+ 		 top: 50%;
+  		left: 50%;
+ 		 -ms-transform: translate(-50%, -50%);
+ 		 transform: translate(-50%, -50%);
 	}
 
 		input[type="submit"]:hover,
